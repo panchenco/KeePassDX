@@ -1,11 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="about_feedback">Comentarios:</string>
-    <string name="about_homepage">Páxina inicial:</string>
-    <string name="about_description">KeePass DX é unha implementación para Android do xestor de contrasinais KeePass.</string>
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2020 Jeremy Jamet / Kunzisoft.
+
+    This file is part of KeePassDX.
+
+    KeePassDX is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    KeePassDX is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with KeePassDX.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+    <string name="feedback">Comentarios:</string>
+    <string name="homepage">Páxina inicial:</string>
+    <string name="about_description">KeePassDX é unha implementación para Android do xestor de contrasinais KeePass.</string>
     <string name="accept">Aceptar</string>
     <string name="add_entry">Engadir entrada</string>
     <string name="add_group">Engadir grupo</string>
-    <string name="add_string">Engadir texto</string>
     <string name="encryption">Cifrado</string>
     <string name="encryption_algorithm">Algoritmo de cifrado</string>
     <string name="key_derivation_function">Función de derivación de chave</string>
@@ -15,7 +33,6 @@
     <string name="beta_dontask">Non amosar de novo</string>
     <string name="brackets">Parénteses</string>
     <string name="extended_ASCII">ASCII extendido</string>
-    <string name="cancel">Cancelar</string>
     <string name="allow">Permitir</string>
     <string name="clipboard_cleared">Portapapeis limpo</string>
     <string name="clipboard_error_title">Erro do portapapeis</string>
@@ -23,4 +40,21 @@
     <string name="clipboard_timeout">Tempo límite para o portapapeis</string>
     <string name="clipboard_timeout_summary">Tempo antes de limpar o portapapeis após copiar usuario ou contrasinal</string>
     <string name="clipboard_swipe_clean">Deslice para limpar agora o portapapeis</string>
-    </resources>
+    <string name="edit_entry">Editar entrada</string>
+    <string name="select_to_copy">Seleccione para copiar %1$s para o portapapeis</string>
+    <string name="retrieving_db_key">A criar a chave da base de dados…</string>
+    <string name="database">Base de dados</string>
+    <string name="digits">Díxitos</string>
+    <string name="entry_accessed">Accedido</string>
+    <string name="entry_cancel">Cancelar</string>
+    <string name="entry_notes">Notas</string>
+    <string name="entry_confpassword">Confirmar contrasinal</string>
+    <string name="entry_created">Criado</string>
+    <string name="entry_expires">Caduca</string>
+    <string name="entry_modified">Modificado</string>
+    <string name="entry_password">Contrasinal</string>
+    <string name="entry_save">Gardar</string>
+    <string name="entry_title">Nome</string>
+    <string name="entry_url">URL</string>
+    <string name="entry_user_name">Usuario</string>
+</resources>

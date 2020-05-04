@@ -1,8 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<!--
+    Copyright 2020 Jeremy Jamet / Kunzisoft.
+
+    This file is part of KeePassDX.
+
+    KeePassDX is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    KeePassDX is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with KeePassDX.  If not, see <http://www.gnu.org/licenses/>.
+-->
 <resources>
-    <string name="about_feedback">Atsauksmes:</string>
-    <string name="about_homepage">Mājaslapa:</string>
-    <string name="about_description">KeePass DX ir KeePass paroļu menedžera Android implementācija</string>
+    <string name="feedback">Atsauksmes:</string>
+    <string name="homepage">Mājaslapa:</string>
+    <string name="about_description">KeePassDX ir KeePass paroļu menedžera Android implementācija</string>
     <string name="accept">Pieņemt</string>
     <string name="add_entry">Jauns ieraksts</string>
     <string name="add_group">Jauna grupa</string>
@@ -13,8 +31,7 @@
     <string name="menu_app_settings">Programmas iestatījumi</string>
     <string name="beta_dontask">Turpmāk nerādīt</string>
     <string name="brackets">Iekavas</string>
-    <string name="browser_intall_text">Failu pārlūkošanai nepieciešams pārlūks.</string>
-    <string name="cancel">Atcelt</string>
+    <string name="file_manager_install_description">Failu pārlūkošanai nepieciešams pārlūks.</string>
     <string name="clipboard_cleared">Starpliktuve notīrīta</string>
     <string name="clipboard_error_title">Starpliktuves kļūda</string>
     <string name="clipboard_error">Dažiem Samsung tālruņiem ir problēmas ar starpliktuves lietošanu. Lai saņemtu sīkāku informāciju, dodieties uz:</string>
@@ -30,7 +47,7 @@
     <string name="select_database_file">Ievadiet datu bāzes nosaukumu</string>
     <string name="entry_accessed">Piekļuve</string>
     <string name="entry_cancel">Atcelt</string>
-    <string name="entry_comment">Komentāri</string>
+    <string name="entry_notes">Komentāri</string>
     <string name="entry_confpassword">Apstipriniet paroli</string>
     <string name="entry_created">Izveidots</string>
     <string name="entry_expires">Derīguma termiņš beidzas</string>
@@ -41,12 +58,8 @@
     <string name="entry_title">Vārds</string>
     <string name="entry_url">URL</string>
     <string name="entry_user_name">Lietotāja vārds</string>
-    <string name="error_arc4">ArcFour plūsmas šifrs netiek atbalstīts.</string>
+    <string name="error_arc4">Arcfour plūsmas šifrs netiek atbalstīts.</string>
     <string name="error_can_not_handle_uri">Neizdevās pātiet uz norādīto adresi.</string>
-    <string name="error_could_not_create_parent">Neizdevās izveidot mātes direktoriju.</string>
-    <string name="error_database_exists">Šāds fails jau pastāv.</string>
-    <string name="error_failed_to_launch_link">Neizdevās atvērt saiti.</string>
-    <string name="error_filename_required">Nepieciešams faila nosaukums.</string>
     <string name="error_file_not_create">Neizdevās izveidot failu:</string>
     <string name="error_invalid_db">Nederīga datu bāze.</string>
     <string name="error_invalid_path">Nederīgs ceļš.</string>
@@ -55,14 +68,11 @@
     <string name="error_out_of_memory">Darbam ar datu bāzi, tālrunī nepietiek atmiņas.</string>
     <string name="error_pass_gen_type">Ir jāatlasa vismaz viens paroles ģenerēšanas tips</string>
     <string name="error_pass_match">Paroles nesakrīt.</string>
-    <string name="error_rounds_not_number">Ievadiet līmeni no 1 līdz 2147483648</string>
     <string name="error_rounds_too_large">Līmenis pārāk liels. Maksimālais 2147483648</string>
     <string name="error_string_key">A field name is required for each string.</string>
-    <string name="error_title_required">Nepieciešams nosaukums.</string>
     <string name="error_wrong_length">Norādiet garumu lielāku par nulli</string>
     <string name="field_name">Lauka nosaukums</string>
     <string name="field_value">Lauka vērtība</string>
-    <string name="file_not_found">Fails nav atrasts.</string>
     <string name="file_browser">Failu pārlūks</string>
     <string name="generate_password">Ģenerēt Paroli</string>
     <string name="hint_conf_pass">apstipriniet paroli</string>
@@ -72,24 +82,21 @@
     <string name="hint_length">garums</string>
     <string name="hint_pass">parole</string>
     <string name="password">Parole</string>
-    <string name="install_from_play_store">Instalēt no Play veikala</string>
-    <string name="install_from_f_droid">Instalēt no F-Droid</string>
-    <string name="invalid_password">Nederīga parole vai atslēgas fails.</string>
+    <string name="invalid_credentials">Nederīga parole vai atslēgas fails.</string>
     <string name="invalid_algorithm">Nederīgs algoritms.</string>
     <string name="invalid_db_sig">Datu bāzes formāts nav atpazīts.</string>
-    <string name="keyfile_does_not_exist">Atslēgas fails nepastāv.</string>
     <string name="keyfile_is_empty">Atslēgas fails ir tukšs.</string>
     <string name="length">Garums</string>
     <string name="list_size_title">Grupu saraksta teksta izmērs</string>
     <string name="list_size_summary">Teksta izmērs ierakstos un grupu sarakstos</string>
     <string name="loading_database">Ielādēt datu bāzi…</string>
     <string name="lowercase">Lower-case</string>
-    <string name="maskpass_title">Sēpt paroles</string>
-    <string name="maskpass_summary">Sēpt paroles *****</string>
-    <string name="menu_about">Par</string>
-    <string name="menu_change_key">Mainīt galveno paroli</string>
+    <string name="hide_password_title">Sēpt paroles</string>
+    <string name="hide_password_summary">Sēpt paroles *****</string>
+    <string name="about">Par</string>
+    <string name="menu_change_key_settings">Mainīt galveno paroli</string>
     <string name="settings">Iestatījumi</string>
-    <string name="menu_db_settings">Datu bāzes iestatījumi</string>
+    <string name="menu_database_settings">Datu bāzes iestatījumi</string>
     <string name="menu_delete">Dzēst</string>
     <string name="menu_donate">Ziedot</string>
     <string name="menu_edit">Rediģēt</string>
@@ -103,22 +110,16 @@
     <string name="never">Nekad</string>
     <string name="no_results">Nav meklēšanas rezultātu</string>
     <string name="no_url_handler">Neizdevās atvērt saiti.</string>
-    <string name="open_recent">Atvērt pēdējo datu bāzi :</string>
-    <string name="omitbackup_title">Nemeklēt kopijās un atkritnē</string>
-    <string name="omitbackup_summary">Izlaist kopijas un atkritni no meklēšanas rezultātiem</string>
+    <string name="omit_backup_search_title">Nemeklēt kopijās un atkritnē</string>
+    <string name="omit_backup_search_summary">Izlaist kopijas un atkritni no meklēšanas rezultātiem</string>
     <string name="progress_create">Izveido jaunu datu bāzi…</string>
     <string name="progress_title">Darbojas…</string>
     <string name="protection">Aizsardzība</string>
-    <string name="recentfile_title">Nesen atvērtie</string>
-    <string name="recentfile_summary">Glabāt atvērto failu nosaukumus</string>
-    <string name="remember_keyfile_summary">Atcerēties šo atslēgas faila vietu</string>
-    <string name="remember_keyfile_title">Saglabāt atslēgas failu</string>
-    <string name="remove_from_filelist">Noņemt</string>
+    <string name="content_description_remove_from_list">Noņemt</string>
     <string name="encryption_rijndael">Rijndael (AES)</string>
     <string name="root">Root</string>
     <string name="rounds">Šifrēšanas līmeņi</string>
     <string name="rounds_explanation">Augstākā līmeņa šifrēšana sniedz lielāku aizsardzību, bet palēnina darbības ar datu bāzēm.</string>
-    <string name="rounds_hint">līmeņi</string>
     <string name="saving_database">Datu bāzes saglabāšana…</string>
     <string name="space">Atstarpe</string>
     <string name="search_label">Meklēt</string>
@@ -130,7 +131,6 @@
     <string name="underline">Pasvītrojums</string>
     <string name="unsupported_db_version">Neatbalstīta datu bāzes versija.</string>
     <string name="uppercase">Lielie burti</string>
-    <string name="warning_unmounted">Nav SD kartes. Darbības ar datu bāzi nav iespējamas.</string>
     <string name="version_label">Versija %1$s</string>
 
     <string name="education_unlock_summary">Ievadiet paroli/atslēgas failu, lai atbloķētu savu datu bāzi.</string>
@@ -155,5 +155,5 @@
     <string name="encryption">Šifrēšana</string>
     <string name="extended_ASCII">Paplašinātais ASCII</string>
     <string name="allow">Atļaut</string>
-    <string name="disclaimer_formal">KeePassDX \u00A9 %1$d Kunzisoft nāk bez jebkādas garantijas; Šī ir bezmaksas programmatūra un jūs to varat izplatīt apstākļos, kas aprakstīti GPL 3 versijā vai jaunākā.</string>
+    <string name="html_about_licence">KeePassDX © %1$d Kunzisoft nāk bez jebkādas garantijas. Šī ir bezmaksas programmatūra un jūs to varat izplatīt apstākļos, kas aprakstīti GPL 3 versijā vai jaunākā.</string>
     </resources>

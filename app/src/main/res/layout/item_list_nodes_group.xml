@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright 2019 Jeremy Jamet / Kunzisoft.
+     
+ This file is part of KeePassDX.
+
+  KeePassDX is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  KeePassDX is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with KeePassDX.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/node_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/KeepassDXStyle.Selectable.Item">
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        app:layout_constraintWidth_percent="@dimen/content_percent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="?android:attr/selectableItemBackground" >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/group_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_right_white_24dp"
+            android:tint="?android:attr/textColorPrimary"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/node_icon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="@dimen/image_list_margin"
+            android:layout_marginStart="@dimen/image_list_margin"
+            android:layout_marginRight="@dimen/image_list_margin"
+            android:layout_marginEnd="@dimen/image_list_margin"
+            android:src="@drawable/ic_blank_32dp"
+            android:scaleType="fitXY"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/group_arrow"
+            android:layout_toEndOf="@+id/group_arrow" />
+        <TextView
+            android:id="@+id/node_child_numbers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="3"
+            android:layout_marginEnd="-18dp"
+            android:layout_marginRight="-18dp"
+            style="@style/KeepassDXStyle.TextAppearance.Info"
+            android:layout_toLeftOf="@+id/node_icon"
+            android:layout_toStartOf="@+id/node_icon"
+            android:layout_alignTop="@+id/node_icon" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="2dp"
+            android:paddingBottom="4dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/node_icon"
+            android:layout_toEndOf="@+id/node_icon">
+            <TextView
+                android:id="@+id/node_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                tools:text="Node Title"
+                android:lines="1"
+                android:singleLine="true"
+                style="@style/KeepassDXStyle.TextAppearance.Title" /> <!-- style override -->
+            <TextView
+                android:id="@+id/node_subtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                tools:text="Node SubTitle"
+                android:layout_marginTop="-4dp"
+                android:lines="1"
+                android:singleLine="true"
+                style="@style/KeepassDXStyle.TextAppearance.Secondary" /> <!-- style override -->
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

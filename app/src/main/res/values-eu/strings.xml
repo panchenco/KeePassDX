@@ -1,40 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- Copyright 2017 Brian Pellin, Jeremy Jamet / Kunzisoft.
-     
- This file is part of KeePass DX.
+    Copyright 2020 Jeremy Jamet / Kunzisoft.
 
-  KeePass DX is free software: you can redistribute it and/or modify
-  it under the terms of the GNU General Public License as published by
-  the Free Software Foundation, either version 3 of the License, or
-  (at your option) any later version.
+    This file is part of KeePassDX.
 
-  KeePass DX is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  GNU General Public License for more details.
+    KeePassDX is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
-  You should have received a copy of the GNU General Public License
-  along with KeePass DX.  If not, see <http://www.gnu.org/licenses/>.
-  
-  Basque translation by David García-Abad, released under GPL V2.
+    KeePassDX is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with KeePassDX.  If not, see <http://www.gnu.org/licenses/>.
+    Basque translation by David García-Abad
 -->
 <resources>
-    <string name="about_feedback">Feedback:</string>
-    <string name="about_homepage">Hasiera orria:</string>
-    <string name="about_description">KeePass DX ireki iturburukoa den Keepass pasahitza kudeatzailaren Androiderako inplementazioa da.</string>
+    <string name="feedback">Feedback:</string>
+    <string name="homepage">Hasiera orria</string>
+    <string name="about_description">Keepass pasahitza kudeatzailearen Androiderako inplementazioa</string>
     <string name="accept">Onartu</string>
     <string name="add_entry">Sarrera gehitu</string>
     <string name="add_group">Taldea gehitu</string>
-    <string name="encryption_algorithm">Algoritmoa</string>
+    <string name="encryption_algorithm">Zifratze algoritmoa</string>
     <string name="app_timeout">Aplikazioa itzaltzeko denbora</string>
     <string name="app_timeout_summary">Denbora datubasea blokeatu baino lehenago aplikazioa erabili gabe dagoenean</string>
     <string name="application">Aplikazioa</string>
     <string name="menu_app_settings">Aplikazioaren ezarpenak</string>
     <string name="beta_dontask">Ez erakutsi berriro</string>
     <string name="brackets">Brackets</string>
-    <string name="browser_intall_text">Fitxategietan nabigatzeak Open Intents Fitxategi Kudeatzailea behar du. Klik egin azpian instalatzeko. Fitxategien kudeatzailaren arazo batzuk direla eta, izan daiteke nabigazioak ondo ez funtzionatzea lehenengo aldian.</string>
-    <string name="cancel">Utzi</string>
+    <string name="file_manager_install_description">Fitxategietan nabigatzeak Open Intents Fitxategi Kudeatzailea behar du. Klik egin azpian instalatzeko. Fitxategien kudeatzailaren arazo batzuk direla eta, izan daiteke nabigazioak ondo ez funtzionatzea lehenengo aldian.</string>
     <string name="clipboard_cleared">Arbela ezabatuta.</string>
     <string name="clipboard_error_title">Arbelean errorea</string>
     <string name="clipboard_error">Samsung Android telefono batzuek akats bat daukate arbelaren inplementazioan, eta honen ondorioz aplikazioetatik kopiatzeak huts egiten du. Xehetasun gehiagotarako ondokora joan:</string>
@@ -42,16 +40,16 @@
     <string name="clipboard_timeout">Arbela denbora pasatu da</string>
     <string name="clipboard_timeout_summary">Erabiltzaile izena edo pasahitza kopiatu ondoren arbela ezabatzeko igaro beharreko denbora</string>
     <string name="select_to_copy">Aukeratu %1$s arbelera kopiatzeko</string>
-    <string name="retrieving_db_key">Datubasearen gakoa sortzen&#8230;</string>
+    <string name="retrieving_db_key">Datubasearen gakoa sortzen…</string>
     <string name="database">Datubasea</string>
-    <string name="decrypting_db">Datubasearen datuak desenkriptatzen&#8230;</string>
+    <string name="decrypting_db">Datubasearen datuak desenkriptatzen…</string>
     <string name="default_checkbox">Hau erabili modu lehenetsitako datubase gisa</string>
     <string name="digits">Zenbakiak</string>
-    <string name="disclaimer_formal">KeePass DX \u00A9 %1$d Kunzisoft ez dakar inolako bermerik; Lan hau software librea da; banatu edo/eta aldatu egin dezakezu GNU General Public License bigarren bertsioaren baldintzapean.</string>
+    <string name="html_about_licence">KeePassDX © %1$d Kunzisoft ez dakar inolako bermerik. Lan hau software librea da. banatu edo/eta aldatu egin dezakezu GNU General Public License bigarren bertsioaren baldintzapean.</string>
     <string name="select_database_file">Datubasearen fitxategiaren izena sartu</string>
     <string name="entry_accessed">Akzesoa</string>
     <string name="entry_cancel">Utzi</string>
-    <string name="entry_comment">Iruzkinak</string>
+    <string name="entry_notes">Iruzkinak</string>
     <string name="entry_confpassword">Pasahitza berretsi</string>
     <string name="entry_created">Sortua</string>
     <string name="entry_expires">Iraungitzen da</string>
@@ -63,12 +61,8 @@
     <string name="entry_title">Izena</string>
     <string name="entry_url">URLa</string>
     <string name="entry_user_name">Erabiltzaile izena</string>
-    <string name="error_arc4">ArcFour stream zifratze sisterako ez dago euskarririk..</string>
-    <string name="error_can_not_handle_uri">KeePass DX-ek ezin dut uri hau kudeatu.</string>
-    <string name="error_could_not_create_parent">Ezin izan da aita-direktorioa sortu.</string>
-    <string name="error_database_exists">Fitxategia esistitzen da.</string>
-    <string name="error_failed_to_launch_link">Ezin izan da esteka ireki.</string>
-    <string name="error_filename_required">Fitxategi izen bat beharrezkoa da.</string>
+    <string name="error_arc4">Arcfour stream zifratze sisterako ez dago euskarririk..</string>
+    <string name="error_can_not_handle_uri">KeePassDX-ek ezin dut uri hau kudeatu.</string>
     <string name="error_file_not_create">Ezin izan da fitxategia sortu:</string>
     <string name="error_invalid_db">Datubase baliogabea.</string>
     <string name="error_invalid_path">Fitxategirako bide baliogabea.</string>
@@ -77,14 +71,11 @@
     <string name="error_out_of_memory">Telefonoa memoriarik gabe gelditu da zure datubasea arakatzean. Handiegia izan daiteke zure telefonorako.</string>
     <string name="error_pass_gen_type">Pasahitza sortzeko mota bat gutxienez aukeratu behar da</string>
     <string name="error_pass_match">Pasahitzak ez datoz bat.</string>
-    <string name="error_rounds_not_number">Rondak zenbaki bat izan behar dira.</string>
     <string name="error_rounds_too_large">Rondak handiegiak.   2147483648 balorean jarrita.</string>
     <string name="error_string_key">Eremu izen bat behar da testu kate bakoitzerako.</string>
-    <string name="error_title_required">Izenburu bat behar da.</string>
     <string name="error_wrong_length">Eremuaren luzeran entero positibo bat sartu</string>
     <string name="field_name">Eremuaren izena</string>
     <string name="field_value">Eremuaren balorea</string>
-    <string name="file_not_found">Fitxategi ez aurkitua.</string>
     <string name="file_browser">Fitxategien nabigatzailea</string>
     <string name="generate_password">Pasahitza sortu</string>
     <string name="hint_conf_pass">pasahitza berretsi</string>
@@ -94,24 +85,21 @@
     <string name="hint_length">luzera</string>
     <string name="hint_pass">pasahitza</string>
     <string name="password">Pasahitza</string>
-    <string name="install_from_play_store">Play store-etik Instalatu</string>
-    <string name="install_from_f_droid">F-Droid-etik Instalatu</string>
-    <string name="invalid_password">Pasahitz edo gako fitxategi baliogabea.</string>
+    <string name="invalid_credentials">Pasahitz edo gako fitxategi baliogabea.</string>
     <string name="invalid_algorithm">Algoritmo baliogabea.</string>
     <string name="invalid_db_sig">Datubase formato ez ezaguna.</string>
-    <string name="keyfile_does_not_exist">Gako fitxategia ez da esistitzen.</string>
     <string name="keyfile_is_empty">Gako fitxategia hutsik dago.</string>
     <string name="length">Luzera</string>
     <string name="list_size_title">Talde listaren tamaina</string>
     <string name="list_size_summary">Testuaren tamaina taldearen listan</string>
-    <string name="loading_database">Datubasea kargatzen&#8230;</string>
+    <string name="loading_database">Datubasea kargatzen…</string>
     <string name="lowercase">minuskulak</string>
-    <string name="maskpass_title">Pasahitza estali</string>
-    <string name="maskpass_summary">Pasahitza estali modu lehenetsian</string>
-    <string name="menu_about">Honi buruz</string>
-    <string name="menu_change_key">Gako Maisua Aldatu</string>
+    <string name="hide_password_title">Pasahitza estali</string>
+    <string name="hide_password_summary">Pasahitza estali modu lehenetsian</string>
+    <string name="about">Honi buruz</string>
+    <string name="menu_change_key_settings">Gako Maisua Aldatu</string>
     <string name="settings">Ezarpenak</string>
-    <string name="menu_db_settings">Datubasearen ezarpenak</string>
+    <string name="menu_database_settings">Datubasearen ezarpenak</string>
     <string name="menu_delete">Ezabatu</string>
     <string name="menu_donate">Dirua eman</string>
     <string name="menu_edit">Editatu</string>
@@ -125,23 +113,17 @@
     <string name="never">Inoiz ez</string>
     <string name="no_results">Emaitzarik gabeko bilaketa</string>
     <string name="no_url_handler">URL kudatzeko euskarririk ez.</string>
-    <string name="open_recent">Duela gutxiko datubasea ireki :</string>
-    <string name="omitbackup_title">Ez bilatu segurtasun kopiaren sarreretan</string>
-    <string name="omitbackup_summary">Kendu segurtasun kopien taldea bilaketen emaitzetatik (.kdb fitxategie dagokie bakarrik)</string>
-    <string name="progress_create">Datubase berria sortzen&#8230;</string>
-    <string name="progress_title">Lanean&#8230;</string>
+    <string name="omit_backup_search_title">Ez bilatu segurtasun kopiaren sarreretan</string>
+    <string name="omit_backup_search_summary">Kendu segurtasun kopien taldea bilaketen emaitzetatik (.kdb fitxategie dagokie bakarrik)</string>
+    <string name="progress_create">Datubase berria sortzen…</string>
+    <string name="progress_title">Lanean…</string>
     <string name="protection">Babesa</string>
-    <string name="recentfile_title">Duela gutxiko fitxategien historia</string>
-    <string name="recentfile_summary">Gogoratu duela gutxi erabili diren fitxategien izenak</string>
-    <string name="remember_keyfile_summary">Gogoratu gako fitxategien kokapenak</string>
-    <string name="remember_keyfile_title">Gako fitxategia gorde</string>
-    <string name="remove_from_filelist">Ezabatu</string>
+    <string name="content_description_remove_from_list">Ezabatu</string>
     <string name="encryption_rijndael">Rijndael (AES)</string>
     <string name="root">Root</string>
     <string name="rounds">Enkriptatzeko Rondak</string>
     <string name="rounds_explanation">Enkriptatzeko ronda gehiago indar gordineko atakeen kontrako babes gehiago ematen dute, baina kargatzea eta gordetzea moteldu dezakete modu nabarmenean.</string>
-    <string name="rounds_hint">rondak</string>
-    <string name="saving_database">Datubasea gordetzen&#8230;</string>
+    <string name="saving_database">Datubasea gordetzen…</string>
     <string name="space">Lekua</string>
     <string name="search_label">Bilatu</string>
     <string name="sort_db">DB-a antolatzeko ordena</string>
@@ -152,7 +134,6 @@
     <string name="underline">Azpimarratu</string>
     <string name="unsupported_db_version">Euskarririk gabeko datubase bertsioa.</string>
     <string name="uppercase">Maiuskulak</string>
-    <string name="warning_unmounted">Une honetan zure sd txartela ez dago montatua zure dispositiboan. Ezingo duzu zure datubasea kargatu edo sortu.</string>
     <string name="version_label">Bertsioa %1$s</string>
 
     <string name="education_unlock_summary">Sartu pasahitz eta / edo gako fitxategi bat zure datubasea desblokeatzeko.</string>

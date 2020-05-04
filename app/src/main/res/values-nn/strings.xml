@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- Copyright 2017 Brian Pellin, Jeremy Jamet / Kunzisoft.
-     
- This file is part of KeePass DX.
+    Copyright 2020 Jeremy Jamet / Kunzisoft.
 
-  KeePass DX is free software: you can redistribute it and/or modify
-  it under the terms of the GNU General Public License as published by
-  the Free Software Foundation, either version 3 of the License, or
-  (at your option) any later version.
+    This file is part of KeePassDX.
 
-  KeePass DX is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  GNU General Public License for more details.
+    KeePassDX is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
-  You should have received a copy of the GNU General Public License
-  along with KeePass DX.  If not, see <http://www.gnu.org/licenses/>.
+    KeePassDX is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with KeePassDX.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources>
-    <string name="about_feedback">Tilbakemelding:</string>
-    <string name="about_homepage">Heimeside:</string>
-    <string name="about_description">KeePass DX er ei android-utgåve av KeePass passordstyrar.</string>
+    <string name="feedback">Tilbakemelding:</string>
+    <string name="homepage">Heimeside:</string>
+    <string name="about_description">KeePassDX er ei android-utgåve av KeePass passordstyrar.</string>
     <string name="accept">Godta</string>    
     <string name="add_entry">Legg til post</string>
     <string name="add_group">Legg til gruppe</string>
@@ -30,8 +30,7 @@
     <string name="application">Program</string>
     <string name="menu_app_settings">Programinnstillingar</string>
     <string name="brackets">Parentesar</string>
-    <string name="browser_intall_text">Du må ha Open Intents filbehandlar for å kunna bla i filer. Klikk nedanfor for å installera han. Grunna nokre småfeil i programmet kan det vera at det ikkje fungerer heilt den første gongen du bruker det.</string>
-    <string name="cancel">Avbryt</string>
+    <string name="file_manager_install_description">Du må ha Open Intents filbehandlar for å kunna bla i filer. Klikk nedanfor for å installera han. Grunna nokre småfeil i programmet kan det vera at det ikkje fungerer heilt den første gongen du bruker det.</string>
     <string name="clipboard_cleared">Utklippstavla er tømt.</string>
     <string name="clipboard_timeout">Tidsavbrot på utklippstavla</string>
     <string name="clipboard_timeout_summary">Tid før utklippstavla blir tømt etter at brukarnamnet eller passordet er kopiert.</string>
@@ -41,11 +40,11 @@
     <string name="decrypting_db">Dekrypterer databasen …</string>
     <string name="default_checkbox">Standarddatabasen</string>
     <string name="digits">Tal</string>
-    <string name="disclaimer_formal">KeePass DX \u00A9 %1$d Kunzisoft kjem med INGEN SOM HELST GARANTI. Dette er eit fritt program. Du er velkomen til å redistribuera det i samsvar med vilkåra til GPL utgåve 3 eller nyare.</string>
+    <string name="html_about_licence">KeePassDX © %1$d Kunzisoft kjem med ingen som helst garanti. Dette er eit fritt program. Du er velkomen til å redistribuera det i samsvar med vilkåra til GPL utgåve 3 eller nyare.</string>
     <string name="select_database_file">Skriv filnamnet til databasen</string>
     <string name="entry_accessed">Brukt</string>
     <string name="entry_cancel">Avbryt</string>
-    <string name="entry_comment">Merknader</string>
+    <string name="entry_notes">Merknader</string>
     <string name="entry_confpassword">Stadfest passordet</string>
     <string name="entry_created">Laga</string>
     <string name="entry_expires">Går ut</string>
@@ -56,12 +55,8 @@
     <string name="entry_title">Namn</string>
     <string name="entry_url">Adresse</string>
     <string name="entry_user_name">Brukaramn</string>
-    <string name="error_arc4">Kan ikkje bruka ArcFour dataflytkryptering.</string>
-    <string name="error_can_not_handle_uri">KeePass DX kan ikkje bruka denne ressursen.</string>
-    <string name="error_could_not_create_parent">Klarte ikkje å laga foreldrekatalogen.</string>
-    <string name="error_database_exists">Denne fila finst allereie.</string>
-    <string name="error_failed_to_launch_link">Klarte ikkje å lasta lenkja.</string>
-    <string name="error_filename_required">Treng eit filnamn.</string>
+    <string name="error_arc4">Kan ikkje bruka Arcfour dataflytkryptering.</string>
+    <string name="error_can_not_handle_uri">KeePassDX kan ikkje bruka denne ressursen.</string>
     <string name="error_file_not_create">Klarte ikkje å laga fila:</string>
     <string name="error_invalid_db">Ugyldig database.</string>
     <string name="error_invalid_path">Ugyldig stig.</string>
@@ -70,11 +65,8 @@
     <string name="error_out_of_memory">Telefonen gjekk tom for minne ved lesinga av databasen din. Databasen er kanskje for stor.</string>
     <string name="error_pass_gen_type">Du må velja minst éin passordlagingstype</string>
     <string name="error_pass_match">Passorda samsvarer ikkje.</string>
-    <string name="error_rounds_not_number">Omgangar må vera eit tal.</string>
     <string name="error_rounds_too_large">For mange omgangar. Bruker 2147483648.</string>
-    <string name="error_title_required">Treng ein tittel.</string>
     <string name="error_wrong_length">Bruk eit positivt heiltal i lengdfeltet</string>
-    <string name="file_not_found">Fann ikkje fila.</string>
     <string name="file_browser">Filbehandlar</string>
     <string name="generate_password">Lag passord</string>
     <string name="hint_conf_pass">stadfest passordet</string>
@@ -84,21 +76,19 @@
     <string name="hint_length">lengd</string>
     <string name="password">Passord</string>
     <string name="hint_pass">passord</string>
-    <string name="install_from_play_store">Installer frå Play Store</string>
-    <string name="install_from_f_droid">Installer frå F-Droid</string>
-    <string name="invalid_password">Ugyldig passord eller nøkkelfil.</string>
+    <string name="invalid_credentials">Ugyldig passord eller nøkkelfil.</string>
     <string name="invalid_db_sig">Ukjent databaseformat.</string>
     <string name="length">Lengd</string>
     <string name="list_size_title">Gruppelistestorleik</string>
     <string name="list_size_summary">Tekststorleik i gruppelista</string>
     <string name="loading_database">Lastar databasen …</string>
     <string name="lowercase">Små bokstavar</string>
-    <string name="maskpass_title">Masker passord</string>
-    <string name="maskpass_summary">Gøym passorda (standardval)</string>
-    <string name="menu_about">Om</string>
-    <string name="menu_change_key">Endra hovudnøkkelen</string>
+    <string name="hide_password_title">Masker passord</string>
+    <string name="hide_password_summary">Gøym passorda (standardval)</string>
+    <string name="about">Om</string>
+    <string name="menu_change_key_settings">Endra hovudnøkkelen</string>
     <string name="settings">Innstillingar</string>
-    <string name="menu_db_settings">Databaseinnstillingar</string>
+    <string name="menu_database_settings">Databaseinnstillingar</string>
     <string name="menu_delete">Slett</string>
     <string name="menu_donate">Doner</string>
     <string name="menu_edit">Endra</string>
@@ -112,19 +102,15 @@
     <string name="never">Aldri</string>
     <string name="no_results">Ingen søkjeresultat</string>
     <string name="no_url_handler">Ingen behandlar for denne adressa.</string>
-    <string name="open_recent">Opna nyleg brukt database :</string>
-    <string name="omitbackup_title">Søk ikkje i kopipostane eller søppelbøtta</string>
-    <string name="omitbackup_summary">Søkjeresultatet inneheld ikkje oppføringar frå \'Backup\' eller søppelbøtta</string>
+    <string name="omit_backup_search_title">Søk ikkje i kopipostane eller søppelbøtta</string>
+    <string name="omit_backup_search_summary">Søkjeresultatet inneheld ikkje oppføringar frå \'Backup\' eller søppelbøtta</string>
     <string name="progress_create">Lager ny database …</string>
     <string name="progress_title">Arbeider …</string>
-    <string name="remember_keyfile_summary">Hugsar staden til nøkkelfilene</string>
-    <string name="remember_keyfile_title">Lagra nøkkelfila</string>
-    <string name="remove_from_filelist">Ta vekk</string>
+    <string name="content_description_remove_from_list">Ta vekk</string>
     <string name="encryption_rijndael">Rijndael (AES)</string>
     <string name="root">Rot</string>
     <string name="rounds">Krypteringsomgangar</string>
     <string name="rounds_explanation">Fleire krypteringsomgangar gjev tilleggsvern mot rå makt-åtak, men kan òg gjera lasting og lagring mykje tregare.</string>
-    <string name="rounds_hint">omgangar</string>
     <string name="saving_database">Lagrar databasen …</string>
     <string name="space">Mellomrom</string>
     <string name="search_label">Søk</string>
@@ -135,7 +121,6 @@
     <string name="underline">Understreking</string>
     <string name="unsupported_db_version">Kan ikkje bruka databaseutgåva.</string>
     <string name="uppercase">Store bokstavar</string>
-    <string name="warning_unmounted">SD-kortet er ikkje montert i eininga di. Du kan verken henta eller laga databasen din.</string>
     <string name="version_label">Utgåve %1$s</string>
 
     <string name="education_unlock_summary">Skriv inn passordet og/eller nøkkelfil for å låsa opp databasen.</string>

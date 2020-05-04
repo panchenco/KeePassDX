@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- Copyright 2017 Brian Pellin, Jeremy Jamet / Kunzisoft.
-     
- This file is part of KeePass DX.
+    Copyright 2020 Jeremy Jamet / Kunzisoft.
 
-  KeePass DX is free software: you can redistribute it and/or modify
-  it under the terms of the GNU General Public License as published by
-  the Free Software Foundation, either version 3 of the License, or
-  (at your option) any later version.
+    This file is part of KeePassDX.
 
-  KeePass DX is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  GNU General Public License for more details.
+    KeePassDX is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
-  You should have received a copy of the GNU General Public License
-  along with KeePass DX.  If not, see <http://www.gnu.org/licenses/>.
+    KeePassDX is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with KeePassDX.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources>
-    <string name="about_feedback">Зворотний зв’язок:</string>
-    <string name="about_homepage">Домашня сторінка:</string>
-    <string name="about_description">KeePass DX є Android версією менеджера паролів KeePass.</string>
+    <string name="feedback">Зворотний зв’язок:</string>
+    <string name="homepage">Домашня сторінка:</string>
+    <string name="about_description">KeePassDX є Android версією менеджера паролів KeePass.</string>
     <string name="accept">Прийняти</string>
     <string name="add_entry">Додати запис</string>
     <string name="add_group">Додати групу</string>
@@ -30,8 +30,7 @@
     <string name="application">Програма</string>
     <string name="menu_app_settings">Налаштування програми</string>
     <string name="brackets">Дужки</string>
-    <string name="browser_intall_text">Для перегляду файла необхідно Open Intents File Manager, натисніть нижче для його інсталяції. У зв’язку з деякими недоробками у менеджері файлів перегляд може працювати некоректно при запуску перший раз.</string>
-    <string name="cancel">Відміна</string>
+    <string name="file_manager_install_description">Для перегляду файла необхідно Open Intents File Manager, натисніть нижче для його інсталяції. У зв’язку з деякими недоробками у менеджері файлів перегляд може працювати некоректно при запуску перший раз.</string>
     <string name="clipboard_cleared">Буфер обміну очищено.</string>
     <string name="clipboard_timeout">Тайм-аут буфера обміну</string>
     <string name="clipboard_timeout_summary">Час через який буде очищено буфер обміну після копіювання ім’я користувача чи пароля</string>
@@ -41,11 +40,11 @@
     <string name="decrypting_db">Розшифрування змісту бази даних&#8230;</string>
     <string name="default_checkbox">Використовувати як мою типову базу даних</string>
     <string name="digits">Цифри</string>
-    <string name="disclaimer_formal">KeePass DX \u00A9 %1$d Kunzisoft comes with ABSOLUTELY NO WARRANTY; This is free software, and you are welcome to redistribute it under the conditions of the GPL version 3 or later.</string>
+    <string name="html_about_licence">KeePassDX © %1$d Kunzisoft comes with absolutely no warranty. This is free software, and you are welcome to redistribute it under the conditions of the GPL version 3 or later.</string>
     <string name="select_database_file">Введіть ім’я бази даних</string>
     <string name="entry_accessed">Доступ</string>
     <string name="entry_cancel">Відміна</string>
-    <string name="entry_comment">Коментар</string>
+    <string name="entry_notes">Коментар</string>
     <string name="entry_confpassword">Підтвердження паролю</string>
     <string name="entry_created">Створено</string>
     <string name="entry_expires">Закінчується</string>
@@ -56,12 +55,8 @@
     <string name="entry_title">Ім’я</string>
     <string name="entry_url">URL</string>
     <string name="entry_user_name">Ім’я користувача</string>
-    <string name="error_arc4">Потокове шифрування ArcFour не підтримується.</string>
-    <string name="error_can_not_handle_uri">KeePass DX не може опрацювати цю адресу.</string>
-    <string name="error_could_not_create_parent">Не вдалося створити батьківський каталог.</string>
-    <string name="error_database_exists">Файл вже існує.</string>
-    <string name="error_failed_to_launch_link">Не вдалося відкрити посилання.</string>
-    <string name="error_filename_required">Необхідно ім’я файла.</string>
+    <string name="error_arc4">Потокове шифрування Arcfour не підтримується.</string>
+    <string name="error_can_not_handle_uri">KeePassDX не може опрацювати цю адресу.</string>
     <string name="error_file_not_create">Не можливо створити файл:</string>
     <string name="error_invalid_db">Невірна база даних.</string>
     <string name="error_invalid_path">Невірний шлях.</string>
@@ -70,11 +65,8 @@
     <string name="error_out_of_memory">Телефону не вистачило пам’яті при аналізі вашої бази даних. Можливо база надто велика для вашог телефона.</string>
     <string name="error_pass_gen_type">Принаймні один тип генерації пароля необхідно вибрати.</string>
     <string name="error_pass_match">Паролі не співпадають.</string>
-    <string name="error_rounds_not_number">Кількість циклів має бути числом.</string>
     <string name="error_rounds_too_large">Надто багато циклів.  Установлено 2147483648.</string>
-    <string name="error_title_required">Необхідно вказати заголовок.</string>
     <string name="error_wrong_length">Введіть ціле число на усю довжину поля</string>
-    <string name="file_not_found">Файл не знайдено.</string>
     <string name="file_browser">Перегляд файлів</string>
     <string name="generate_password">Згенерувати пароль</string>
     <string name="hint_conf_pass">підтвердження пароля</string>
@@ -84,21 +76,19 @@
     <string name="hint_length">довжина</string>
     <string name="password">Пароль</string>
     <string name="hint_pass">пароль</string>
-    <string name="install_from_play_store">Інсталювати із Google Play</string>
-    <string name="install_from_f_droid">Інсталювати із F-Droid</string>
-    <string name="invalid_password">Невірний пароль або файл ключа.</string>
+    <string name="invalid_credentials">Невірний пароль або файл ключа.</string>
     <string name="invalid_db_sig">Формат бази даних не розпізнано.</string>
     <string name="length">Довжина</string>
     <string name="list_size_title">Розмір списку груп</string>
     <string name="list_size_summary">Розмір тексту у списку груп</string>
     <string name="loading_database">Завантаження бази даних&#8230;</string>
     <string name="lowercase">Нижній регістр</string>
-    <string name="maskpass_title">Маска пароля</string>
-    <string name="maskpass_summary">Приховати паролі за замовчуванням</string>
-    <string name="menu_about">Про</string>
-    <string name="menu_change_key">Змінити головний ключ</string>
+    <string name="hide_password_title">Маска пароля</string>
+    <string name="hide_password_summary">Приховати паролі за замовчуванням</string>
+    <string name="about">Про</string>
+    <string name="menu_change_key_settings">Змінити головний ключ</string>
     <string name="settings">Налаштування</string>
-    <string name="menu_db_settings">Налаштування бази даних</string>
+    <string name="menu_database_settings">Налаштування бази даних</string>
     <string name="menu_delete">Вилучити</string>
     <string name="menu_donate">Пожертвувати</string>
     <string name="menu_edit">Редагувати</string>
@@ -112,19 +102,15 @@
     <string name="never">Ніколи</string>
     <string name="no_results">Нічого не знайдено.</string>
     <string name="no_url_handler">Нема програми для опрацювання цього посилання.</string>
-    <string name="open_recent">Відкрити останню базу даних :</string>
-    <string name="omitbackup_title">Не шукати записів з резервного копіювання та кошиків</string>
-    <string name="omitbackup_summary">Пропустити групу \'Резервна копія\' та Кошик серед результатів пошуку</string>
+    <string name="omit_backup_search_title">Не шукати записів з резервного копіювання та кошиків</string>
+    <string name="omit_backup_search_summary">Пропустити групу \'Резервна копія\' та Кошик серед результатів пошуку</string>
     <string name="progress_create">Створення нової бази даних&#8230;</string>
     <string name="progress_title">Працює&#8230;</string>
-    <string name="remember_keyfile_summary">Запам’ятати розташування файла ключа</string>
-    <string name="remember_keyfile_title">Збережіть файл ключа</string>
-    <string name="remove_from_filelist">Вилучити</string>
+    <string name="content_description_remove_from_list">Вилучити</string>
     <string name="encryption_rijndael">Rijndael (AES)</string>
     <string name="root">Корінь</string>
     <string name="rounds">Циклів шифрування</string>
     <string name="rounds_explanation">Велика кількість циклів шифрування забезпечує додатковий захист від грубих атак, але може дійсно уповільнити завантаження та захист.</string>
-    <string name="rounds_hint">цикли</string>
     <string name="saving_database">Збереження бази даних&#8230;</string>
     <string name="space">Пропуск</string>
     <string name="search_label">Пошук</string>
@@ -135,7 +121,6 @@
     <string name="underline">Підкреслення</string>
     <string name="unsupported_db_version">Непідтримувана версія бази даних.</string>
     <string name="uppercase">Верхній регістр</string>
-    <string name="warning_unmounted">Ваша карта пам’яті зараз не змонтована на телефоні. Ви не зможете завантажити або створити базу даних.</string>
     <string name="version_label">Версія %1$s</string>
 
     <string name="education_unlock_summary">Введіть пароль і/або файл ключа для відкриття бази даних.</string>
